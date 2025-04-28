@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "latitude"
+    ],
+    "_CoordinateAxisType": "latitude",
+    "coordinates": "latitude",
+    "units": "degrees_north"
+}

@@ -1,0 +1,18 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "t",
+        "latitude",
+        "longitude"
+    ],
+    "_ChunkSizes": [
+        1,
+        311,
+        703
+    ],
+    "coordinates": "latitude longitude",
+    "long_name": "ppt_stable_4kmD2",
+    "max": 51.560001373291016,
+    "min": 0.0,
+    "missing_value": -3.4e+38,
+    "units": "mm"
+}

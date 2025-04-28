@@ -1,0 +1,17 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "t",
+        "latitude",
+        "longitude"
+    ],
+    "_ChunkSizes": [
+        1,
+        311,
+        703
+    ],
+    "coordinates": "latitude longitude",
+    "long_name": "tmin_stable_4kmD2",
+    "max": 14.076000213623047,
+    "min": -35.694000244140625,
+    "units": "C"
+}

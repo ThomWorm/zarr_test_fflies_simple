@@ -1,0 +1,9 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "t"
+    ],
+    "_ChunkSizes": 512,
+    "_CoordinateAxisType": "Time",
+    "calendar": "gregorian",
+    "units": "days since 2001-01-01"
+}

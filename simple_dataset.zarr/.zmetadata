@@ -1,0 +1,261 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "DODS_EXTRA.Unlimited_Dimension": "t"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                621
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                621
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ],
+            "_CoordinateAxisType": "latitude",
+            "coordinates": "latitude",
+            "units": "degrees_north"
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                1405
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1405
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ],
+            "_CoordinateAxisType": "longitude",
+            "coordinates": "longitude",
+            "units": "degrees_east"
+        },
+        "ppt/.zarray": {
+            "chunks": [
+                1,
+                621,
+                1405
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": -3.4e+38,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3,
+                621,
+                1405
+            ],
+            "zarr_format": 2
+        },
+        "ppt/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "t",
+                "latitude",
+                "longitude"
+            ],
+            "_ChunkSizes": [
+                1,
+                311,
+                703
+            ],
+            "coordinates": "latitude longitude",
+            "long_name": "ppt_stable_4kmD2",
+            "max": 51.560001373291016,
+            "min": 0.0,
+            "missing_value": -3.4e+38,
+            "units": "mm"
+        },
+        "t/.zarray": {
+            "chunks": [
+                3
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3
+            ],
+            "zarr_format": 2
+        },
+        "t/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "t"
+            ],
+            "_ChunkSizes": 512,
+            "_CoordinateAxisType": "Time",
+            "calendar": "gregorian",
+            "units": "days since 2001-01-01"
+        },
+        "tmax/.zarray": {
+            "chunks": [
+                1,
+                621,
+                1405
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": -3.3999999521443642e+38,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3,
+                621,
+                1405
+            ],
+            "zarr_format": 2
+        },
+        "tmax/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "t",
+                "latitude",
+                "longitude"
+            ],
+            "_ChunkSizes": [
+                1,
+                311,
+                703
+            ],
+            "coordinates": "latitude longitude",
+            "long_name": "tmax_stable_4kmD2",
+            "max": 28.430999755859375,
+            "min": -24.90399932861328,
+            "units": "C"
+        },
+        "tmean/.zarray": {
+            "chunks": [
+                1,
+                621,
+                1405
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": -3.3999999521443642e+38,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3,
+                621,
+                1405
+            ],
+            "zarr_format": 2
+        },
+        "tmean/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "t",
+                "latitude",
+                "longitude"
+            ],
+            "_ChunkSizes": [
+                1,
+                311,
+                703
+            ],
+            "coordinates": "latitude longitude",
+            "long_name": "tmean_stable_4kmD2",
+            "max": 18.862001419067383,
+            "min": -30.277002334594727,
+            "units": "C"
+        },
+        "tmin/.zarray": {
+            "chunks": [
+                1,
+                621,
+                1405
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": -3.3999999521443642e+38,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                3,
+                621,
+                1405
+            ],
+            "zarr_format": 2
+        },
+        "tmin/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "t",
+                "latitude",
+                "longitude"
+            ],
+            "_ChunkSizes": [
+                1,
+                311,
+                703
+            ],
+            "coordinates": "latitude longitude",
+            "long_name": "tmin_stable_4kmD2",
+            "max": 14.076000213623047,
+            "min": -35.694000244140625,
+            "units": "C"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
