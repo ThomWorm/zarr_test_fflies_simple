@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "longitude"
-    ],
-    "_CoordinateAxisType": "longitude",
-    "coordinates": "longitude",
-    "units": "degrees_east"
-}
